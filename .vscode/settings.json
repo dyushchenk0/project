@@ -1,0 +1,44 @@
+{
+	"cSpell.words": [
+		"Daniik",
+		"Daniil",
+		"dyushchenko",
+		"dyushenko",
+		"Kirill",
+		"Murzik"
+	],
+
+	// Общие улучшения редактора
+	"editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": false,
+	"editor.tabSize": 2, // Удобный размер табуляции (для JS/HTML/CSS)
+	"editor.insertSpaces": true, // Вместо табов — пробелы
+	"editor.wordWrap": "on", // Автоматический перенос длинных строк
+	"editor.minimap.enabled": false, // Отключает мини-карту справа
+	"editor.cursorSmoothCaretAnimation": "on", // Плавное перемещение курсора
+
+	// Цвета и интерфейс
+	"workbench.colorTheme": "Andromeda", // Тема
+	"workbench.iconTheme": "material-icon-theme", // Иконки файлов (удобно для навигации)
+	"workbench.startupEditor": "none", // Не открывать Welcome-экран
+	"workbench.statusBar.visible": true, // Показывать нижнюю строку состояния
+
+	// Умное автосохранение и помощь
+	"files.autoSave": "onWindowChange", // Сохраняет файл при переключении окна
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	},
+	"javascript.suggest.autoImports": true, // Автодобавление import при JS-разработке
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact" // Emmet в JS-файлах
+	},
+	"css.validate": false, // Отключает раздражающие ошибки в CSS (если используешь нестандартные фреймворки)
+
+	// Терминал и запуск
+	"terminal.integrated.fontSize": 14, // Размер шрифта в терминале
+	"terminal.integrated.scrollback": 10000, // Количество строк истории
+	"code-runner.runInTerminal": true, // Чтобы видеть `console.log` в терминале
+	"code-runner.clearPreviousOutput": true // Очищать вывод при каждом запуске
+}
