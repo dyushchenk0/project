@@ -1,0 +1,17 @@
+# Folders
+node_modules/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Confidential
+.env
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.rar
