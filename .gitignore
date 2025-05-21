@@ -9,6 +9,9 @@ Thumbs.db
 # Confidential
 .env
 
+# files
+scrpt.js
+
 # Logs
 *.log
 
